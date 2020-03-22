@@ -16,4 +16,7 @@
 
 ```
 # cp /home/dispatch/dispatch/dispatch.service /etc/systemd/system/dispatch.service
+# systemctl daemon-releoad
+# systemctl enable dispatch 
+# systemctl start d
 ```
