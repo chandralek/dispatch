@@ -13,8 +13,9 @@
 Run the next commands with following settings.
 
 User - `dispatch`
-Directory - `/home/catalogue/catalogue`
+Directory - `/home/dispatch/dispatch`
 
 ```
+$ mkdir 
 $ npm install
 ```
