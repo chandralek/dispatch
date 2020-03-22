@@ -10,3 +10,11 @@
 
 2. Copy the Binary.
 
+Run the next commands with following settings.
+
+User - `catalogue`
+Directory - `/home/catalogue/catalogue`
+
+```
+$ npm install
+```
