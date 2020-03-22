@@ -19,5 +19,5 @@ Directory - `/home/dispatch/dispatch`
 
 ```
 $ mkdir -p /home/dispatch/dispatch 
-$ npm install
+$ cp 
 ```
