@@ -3,7 +3,7 @@ Description=Go Dispatch Service
 
 [Service]
 User=dispatch
-ExecStart=ROOT-DIR/dispatch/gorcv
+ExecStart=/home/dispatch/dispatch/dispatch
 Restart=always
 RestartSec=10
 StandardOutput=append:/var/log/robo-shop/dispatch.log
