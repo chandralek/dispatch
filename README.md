@@ -12,6 +12,7 @@
 
 **Use Git Clone to get code**
 
+3. Copy the 
 
 ```
 $ 
