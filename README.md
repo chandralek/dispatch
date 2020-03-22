@@ -12,7 +12,11 @@
 
 **Use Git Clone to get code**
 
+Give executable permissions
 
+```
+chmod ugo+x /home/
+```
 
 3. Need to import `dispatch` service to the system, To manage with `systemctl`.
 
