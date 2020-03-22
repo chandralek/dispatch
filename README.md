@@ -12,7 +12,7 @@
 
 Run the next commands with following settings.
 
-User - `catalogue`
+User - `dispatch`
 Directory - `/home/catalogue/catalogue`
 
 ```
