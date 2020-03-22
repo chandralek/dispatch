@@ -12,7 +12,7 @@
 
 **Use Git Clone to get code**
 
-3. Copy the 
+3. Copy the dispatch service to 
 
 ```
 $ 
