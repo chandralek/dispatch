@@ -1,8 +1,8 @@
 [Unit]
-Description=Go Payment Service
+Description=Go Dispatch Service
 
 [Service]
-User=robo-shop
+User=dispatch
 ExecStart=ROOT-DIR/dispatch/gorcv
 Restart=always
 RestartSec=10
