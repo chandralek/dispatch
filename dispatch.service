@@ -1,5 +1,5 @@
 [Unit]
-Description=Python Payment Service
+Description=Go Payment Service
 
 [Service]
 User=robo-shop
