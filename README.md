@@ -12,7 +12,7 @@
 
 Run the next commands with following settings.
 
-****
+**Use Git Clone to **
 
 User - `dispatch`
 Directory - `/home/dispatch/dispatch`
