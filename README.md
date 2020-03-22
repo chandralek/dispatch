@@ -10,7 +10,7 @@
 
 2. Copy the Binary.
 
-**Use Git Clone**
+**Use Git Clone to get code**
 
 Run the next commands with following settings.
 
