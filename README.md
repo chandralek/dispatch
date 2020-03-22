@@ -10,9 +10,9 @@
 
 2. Copy the Binary.
 
-Run the next commands with following settings.
+**Use Git Clone**
 
-**Use Git Clone to **
+Run the next commands with following settings.
 
 User - `dispatch`
 Directory - `/home/dispatch/dispatch`
