@@ -24,4 +24,4 @@
 
 **NOTE:-**
 
-This application need to connect to RabbitMQ, So it needs to 
+This application need to connect to RabbitMQ, So it needs to connect to it. So
