@@ -163,7 +163,7 @@ func main() {
     // get host from environment
     amqpHost, ok := os.LookupEnv("AMQP_HOST")
     if !ok {
-        amqpHost = "rabbitmq"
+        amqpHost = "localhost"
     }
     amqpUri = fmt.Sprintf("amqp://guest:guest@%s:5672/", amqpHost)
 
