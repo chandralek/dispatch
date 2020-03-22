@@ -12,7 +12,7 @@
 
 **Use Git Clone to get code**
 
-3. Copy the dispatch service to 
+3. Need to import `catalogue` service to the system, To manage with `systemctl`.
 
 ```
 $ 
