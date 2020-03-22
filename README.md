@@ -15,5 +15,5 @@
 3. Need to import `dispatch` service to the system, To manage with `systemctl`.
 
 ```
-# cp /home/dispatch/dispatch/
+# cp /home/dispatch/dispatch/dispatch.service /etc/systemd/system
 ```
