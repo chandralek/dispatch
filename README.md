@@ -8,14 +8,10 @@
 # useradd dispatch
 ```
 
-2. Clone the repo.
+2. Clone the repo as user.
 
 **Use Git Clone to get code**
 
-Run the next commands with following settings.
-
-User - `dispatch`
-Directory - `/home/dispatch/dispatch`
 
 ```
 $ 
