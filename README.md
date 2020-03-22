@@ -8,7 +8,7 @@
 # useradd dispatch
 ```
 
-2. Copy the Binary.
+2. Clone the repo.
 
 **Use Git Clone to get code**
 
