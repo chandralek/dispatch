@@ -18,6 +18,5 @@ User - `dispatch`
 Directory - `/home/dispatch/dispatch`
 
 ```
-$ mkdir -p /home/dispatch/dispatch 
-$ cp 
+$ 
 ```
