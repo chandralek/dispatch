@@ -15,7 +15,7 @@
 Give executable permissions
 
 ```
-chmod ugo+x /home/
+chmod ugo+x /home/dispatch/dispatch/dispatch
 ```
 
 3. Need to import `dispatch` service to the system, To manage with `systemctl`.
