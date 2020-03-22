@@ -24,4 +24,5 @@
 
 **NOTE:-**
 
-This application need to connect to RabbitMQ, So it needs to connect to it. So in order to connect it needs an username and password, and those should be `guest` and `guest`. So ensure we are able to connect to RabbitMQ using the 
+This application need to connect to RabbitMQ, So it needs to connect to it. So in order to connect it needs an username and password, and those should be `guest` and `guest`. So ensure we are able to connect to RabbitMQ using the above username and password.
+
