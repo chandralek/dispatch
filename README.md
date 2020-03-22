@@ -16,6 +16,6 @@ User - `dispatch`
 Directory - `/home/dispatch/dispatch`
 
 ```
-$ mkdir 
+$ mkdir -p /home/dispatch/dispatch 
 $ npm install
 ```
