@@ -22,7 +22,7 @@ chmod ugo+x /home/dispatch/dispatch/dispatch
 
 ```
 # cp /home/dispatch/dispatch/dispatch.service /etc/systemd/system/dispatch.service
-# systemctl daemon-releoad
+# systemctl daemon-reload
 # systemctl enable dispatch 
 # systemctl start dispatch
 ```
