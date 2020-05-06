@@ -23,14 +23,7 @@ pipeline {
         '''
       }
     }
-
-    stage('Create Archive to Upload') {
-      steps {
-        sh '''
-          tar -czf user-service-${MAJOR_VERSION}-${BUILD_NUMBER}.tgz node_modules package.json  server.js
-        '''
-      }
-    }
+    
 
     stage('Upload To Nexus') {
       steps {
