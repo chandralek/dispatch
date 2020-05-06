@@ -18,6 +18,8 @@ pipeline {
          cp -r src ${PWD}/go/src/github.com/instana/dispatch
          cd ${PWD}/go/src/github.com/instana/dispatch
          dep init 
+         dep ensure
+         go build -o bin/dispatch
         '''
       }
     }
