@@ -10,10 +10,13 @@ pipeline {
   }
   stages {
 
-    stage('Install Npm Dependencies') {
+    stage('Install Go Dependencies') {
       steps {
         sh '''
-          npm install
+         mkdir -p go/src/github.com/instana/dispatch
+         export GOPATH="${PWD}/go/src/github.com/instana/dispatch"
+         cp -r src ${PWD}/go/src/github.com/instana/dispatch
+         dep init 
         '''
       }
     }
