@@ -19,11 +19,11 @@ pipeline {
          cd ${PWD}/go/src/github.com/instana/dispatch
          dep init 
          dep ensure
-         go build -o bin/dispatch
+         go build -o bin/gocrv
         '''
       }
     }
-    
+
 
     stage('Upload To Nexus') {
       steps {
