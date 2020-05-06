@@ -19,7 +19,8 @@ pipeline {
          cd ${PWD}/go/src/github.com/instana/dispatch
          dep init 
          dep ensure
-         go build -o bin/gocrv
+         cd src
+         go build -o bin/dispatch
         '''
       }
     }
