@@ -30,7 +30,7 @@ pipeline {
       steps {
         sh '''
           cp ${PWD}/go/src/github.com/instana/dispatch/src/bin/dispatch dispatch-service-${MAJOR_VERSION}-${BUILD_NUMBER}
-          curl -f -v -u $NEXUS --upload-file dispatch-${MAJOR_VERSION}-${BUILD_NUMBER} https://nexus.devopsb46.online/repository/dispatch-service/dispatch-service-${MAJOR_VERSION}-${BUILD_NUMBER}
+          curl -f -v -u $NEXUS --upload-file dispatch-service-${MAJOR_VERSION}-${BUILD_NUMBER} https://nexus.devopsb46.online/repository/dispatch-service/dispatch-service-${MAJOR_VERSION}-${BUILD_NUMBER}
         '''
       }
     }
