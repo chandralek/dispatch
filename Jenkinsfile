@@ -15,7 +15,7 @@ pipeline {
         sh '''
          mkdir -p go/src/github.com/instana/dispatch
          export GOPATH="${PWD}/go/src/github.com/instana/dispatch"
-         cp -r src ${PWD}/go/src/github.com/instana/dispatch
+         cp -r src/main.go ${PWD}/go/src/github.com/instana/dispatch
          cd ${PWD}/go/src/github.com/instana/dispatch
          dep init 
         '''
