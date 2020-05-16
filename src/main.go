@@ -161,7 +161,7 @@ func main() {
 
     // Init amqpUri
     // get host from environment
-    amqpHost, ok := os.LookupEnv("AMQP_HOST")
+    amqpHost, ok := os.LookupEnv("RABBITMQ_HOST")
     if !ok {
         amqpHost = "localhost"
     }
