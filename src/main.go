@@ -165,7 +165,7 @@ func main() {
     if !ok {
         amqpHost = "localhost"
     }
-    amqpUri = fmt.Sprintf("amqp://guest:guest@%s:5672/", amqpHost)
+    amqpUri = fmt.Sprintf("amqp://roboshop:roboshop123@%s:5672/", amqpHost)
 
     // get error threshold from environment
     errorPercent = 0
